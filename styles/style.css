@@ -275,7 +275,9 @@
 .circle-wrap .circle .fill-1,
 .circle-wrap .circle .fill-2,
 .circle-wrap .circle .fill-3,
-.circle-wrap .circle .fill-4{
+.circle-wrap .circle .fill-4,
+.circle-wrap .circle .fill-5
+{
     width: 150px;
     height: 150px;
     position: absolute;
@@ -349,6 +351,21 @@ animation: fill-4 ease-in-out 3s;
 transform: rotate(100deg);
 }
 @keyframes fill-4{
+0%{transform: rotate(0deg);}
+100%{transform: rotate(100deg);}
+
+}
+.mask .fill-5{
+    clip: rect(0px, 75px, 150px, 0px);
+    background-color: #7851A9;
+}
+.mask.full-5,
+.circle .fill-5
+{
+animation: fill-5 ease-in-out 3s;
+transform: rotate(100deg);
+}
+@keyframes fill-5{
 0%{transform: rotate(0deg);}
 100%{transform: rotate(100deg);}
 
