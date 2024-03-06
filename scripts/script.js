@@ -30,6 +30,8 @@ moveToHome = (event) => {
   const navbarHeight = navbar.offsetHeight; // Get the height of the navbar
   const targetPosition = aboutMeHeading.offsetTop - navbarHeight - offset;
   window.scrollTo({ top: targetPosition, behavior: "smooth" });
+  menu.classList.remove("active");
+  menuBtn.classList.remove("hide");
 };
 
 const moveToContactMe = (event) => {
@@ -39,6 +41,8 @@ const moveToContactMe = (event) => {
   const offset = 10;
   const targetPosition = contactHeading.offsetTop - navbarHeight - offset;
   window.scrollTo({ top: targetPosition, behavior: "smooth" });
+  menu.classList.remove("active");
+  menuBtn.classList.remove("hide");
 };
 
 const moveToSkill = (event) => {
@@ -48,6 +52,8 @@ const moveToSkill = (event) => {
   const offset = 10;
   const targetPosition = skillHeading.offsetTop - navbarHeight - offset;
   window.scrollTo({ top: targetPosition, behavior: "smooth" });
+  menu.classList.remove("active");
+  menuBtn.classList.remove("hide");
 };
 
 const moveToProjects = (event) => {
@@ -57,6 +63,8 @@ const moveToProjects = (event) => {
   const offset = 10;
   const targetPosition = projectHeading.offsetTop - navbarHeight - offset;
   window.scrollTo({ top: targetPosition, behavior: "smooth" });
+  menu.classList.remove("active");
+  menuBtn.classList.remove("hide");
 };
 
 aboutbtn.addEventListener("click", moveToHome);

@@ -70,7 +70,7 @@
 }
 .banner{
     height: 100vh;
-    background: blue;
+    /* background: blue; */
     /* background: url("/images/ban.jpg") no-repeat; */
     background-size: cover;
     background-position: center;
@@ -122,12 +122,9 @@
     flex-direction: column;
     
 }
-/* #about-me h3 + span {
-    color: red;
-} */
 
 .section1 span{
-    /* margin-top: 10px;4s
+    /* margin-top: 10px;
     margin-right: 10px;
      */
      padding: 20px 30px;
