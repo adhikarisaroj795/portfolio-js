@@ -157,6 +157,7 @@
     
 }
 
+
 .my-skills{
     z-index: 2;
 }
@@ -181,6 +182,13 @@
     position: absolute;
     right: 30px;
     top: 20px;
+}
+@media(max-width: 868px){
+    .section1 p{
+      
+        text-align: center;
+        
+    }
 }
 @media(max-width: 868px){
     .icon{
