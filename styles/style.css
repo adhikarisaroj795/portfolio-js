@@ -122,16 +122,29 @@
     flex-direction: column;
     
 }
+/* #about-me h3 + span {
+    color: red;
+} */
+
 .section1 span{
-    margin-top: 10px;
+    /* margin-top: 10px;4s
     margin-right: 10px;
+     */
+     padding: 20px 30px;
+     margin-bottom: 5px;
+     width: 40%;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
     font-size: 1.3rem;
-    background:  #B76E79;
+    background:  #FFDAB9;
     padding: 5px;
+    color: #3498db;
    
     
     
 }
+
 .section1 h1{
     font-size: 45px;
     font-family: "Montserrat", sans-serif;
@@ -189,7 +202,9 @@
         text-align: center;
         
     }
+   
 }
+
 @media(max-width: 868px){
     .icon{
         display: block;
