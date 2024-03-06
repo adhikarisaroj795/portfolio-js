@@ -2,6 +2,7 @@ const navbar = document.querySelector(".navbar");
 const menu = document.querySelector(".menu-list");
 const menuBtn = document.querySelector(".menu-btn");
 const cancelBtn = document.querySelector(".cancel-btn");
+const refreshableDiv = document.querySelector(".my-skill");
 
 menuBtn.addEventListener("click", () => {
   menu.classList.add("active");
@@ -115,3 +116,14 @@ emailMe.addEventListener("click", () => {
 
   window.location.href = mailtoUrl;
 });
+
+////animaton
+
+// window.addEventListener("scroll", () => {
+//   const scrollPosition = window.scrollY;
+
+//   if (scrollPosition >= document.getElementById("my-skills").offsetTop) {
+//     var div = refreshableDiv;
+
+//   }
+// });
